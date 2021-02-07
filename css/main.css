@@ -1,0 +1,279 @@
+
+/* nova font for the h2 - font-family: 'Nova Square', cursive; */
+
+
+body {
+    background: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: wheat;
+}
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width{
+    width: 600px;
+    float: left;
+}
+
+h1 {
+    font-size: 20px;
+    padding: 10px 15px;
+    margin: 0 auto;
+    font-weight: normal;
+}
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: normal;
+}
+
+h2 span {
+    font-family: 'Nova Square', cursive;
+}
+nav {
+    float: right;
+    padding: 0px 0px;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15px;
+    color: wheat;
+    padding-left: 65px;
+
+}
+
+#main-image h2 {
+   position: absolute;
+   bottom: 26px;
+   left: 10px;
+   padding-left: 150px;
+   font-size: 50px;
+ 
+}
+
+#main-image h2 span {
+    font-family: 'Nova Square', cursive;
+    color: #fa0075;
+    font-weight: normal;
+}
+
+#portfolio h2 {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+/* 
+this is the greenbean sections */
+
+
+#green-bean .rogue {
+    margin: 25px 0;
+    overflow: auto;
+
+}
+
+#green-green .message-1 {
+    padding: 10px 25px;
+}
+
+.message-1 {
+    margin: 10px 75px;
+    padding: 10px 50px 10px 50px;
+    overflow: auto;
+    
+}
+
+
+.rogue {
+    float: right;
+    padding: 0 20px;
+    margin: 0 25px;
+    width: 500px;
+    height: 300px;
+    box-sizing: border-box;
+}
+
+
+/* 
+this is the jubilee section */
+
+#jubilee .jubilee {
+    margin: 25px 0;
+    overflow: auto;
+
+}
+
+#jubilee .message-2 {
+    padding: 10px 55px;
+}
+
+.message-2 {
+    margin: 100px 75px;
+    padding: 10px 50px 10px 50px;
+    overflow: auto;
+    
+}
+
+.img {
+    float: right;
+    width: 300px;
+    height: 500px;
+}
+
+.jubilee {
+    float: left;
+    padding: 0 55px;
+    margin: 25px 40px;
+    width: 500px;
+    height: 300px;
+    box-sizing: border-box;
+}
+/* 
+this is the cookie sections */
+
+#cookie .recipe {
+    margin: 25px 0;
+    overflow: auto;
+
+}
+
+#cookie .message-3 {
+    padding: 10px 25px;
+}
+
+.message-3 {
+    margin: 10px 75px;
+    padding: 10px 50px 10px 50px;
+    overflow: auto;
+    
+}
+
+.recipe {
+    float: right;
+    padding: 0 20px;
+    margin: 0 25px;
+    width: 500px;
+    height: 300px;
+    box-sizing: border-box;
+}
+
+/* about me img section */
+
+#about-me img {
+    margin: 35px 0;
+}
+
+.ontext {
+    position: absolute;
+    top: 2275px;
+    padding-left: 500px;
+    color: #fa0075;
+}
+
+.ontext2 {
+    position: absolute;
+    top: 2500px;
+    padding-left: 100px;
+    font-weight: 700;
+    color:#fa0075;
+}
+
+.moveup {
+    position: absolute;
+    top: 2550px;
+    padding-left: 100px;
+    color: #fa0075;
+}
+
+/* this is the footer section */
+
+
+.foot {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+
+/* everything below lets connect  */
+
+.bottom-section{
+    margin: 0 auto;
+    clear: both;
+}
+
+
+.section-one, .section-two, .section-three{
+    width: 399px;
+    height: auto;
+    float: left;
+}
+
+.section-two {
+    margin-left: 100px;
+}
+
+.section-one h3{
+    padding-left: 145px;
+    padding-right: 150px;
+ }
+
+
+.section-two h3, .section-three h3{
+    padding-left: 100px;
+    color: wheat;
+}
+
+
+ .menu li {
+    list-style: none;
+    border-radius: 50%;
+    display: inline-block; /* the default for span */
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}
+
+
+
+
+.reviews {
+        color: wheat;
+        font-size: 16px;
+        line-height: 21px;
+        padding-left: 100px;
+}
+
+.address {
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 100px
+}
+
+
+/*  bottom footer - is good */
+
+.end .copy {
+   margin-top: 200px;
+   margin-left: 575px;
+   margin-right: 500px;
+   margin-bottom: 25px;
+}
+
+.copy span {
+    font-family: 'Galada', cursive;
+    text-transform: lowercase;
+    color:#fa0075;
+    font-size: 12px;
+}
